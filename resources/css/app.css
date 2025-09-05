@@ -1,0 +1,162 @@
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.books-component {
+  width: 100%;
+}
+
+.books-component table {
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 100%;
+}
+
+.books-component th {
+  border: 1px solid #dededf;
+  background-color: #414141;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.books-component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.invisible {
+  display: none;
+}
+
+.book-detail {
+  .book {
+    margin-left: 25px;
+  }
+
+}
+
+.reviews {
+  font-size: 12px;
+  
+
+
+  .red {
+    color: oklch(57.7% 0.245 27.325)
+  }
+
+  .green {
+    color: oklch(59.6% 0.145 163.225);
+  }
+
+  span {
+    font-weight: bold;
+  }
+  summary {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
+  }
+  
+  .review {
+    border-bottom: 1px solid darkblue;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+  }
+
+  .comment-header {
+    display: block;
+  }
+  
+  .comment {
+    margin-left: 15px;
+  }
+
+}
+.normal {
+  label {
+    color: oklch(50% 0.134 242.749);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+
+  p {
+    display: none;
+  }
+
+  input,
+  textarea {
+    background-color: oklch(97.7% 0.013 236.62);
+    border: 1px solid oklch(68.5% 0.169 237.323);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  input,
+  textarea::placeholder {
+    color: oklch(50% 0.134 242.749);
+  }
+}
+
+.error {
+
+  label {
+    color: oklch(50.5% 0.213 27.518);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+
+
+  p {
+    display: block;
+    color: oklch(63.7% 0.237 25.331);
+    font-size: 12px;
+  }
+
+  input {
+    background-color: oklch(93.6% 0.032 17.717);
+    border: 1px solid oklch(63.7% 0.237 25.331);
+    color: oklch(39.6% 0.141 25.723);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  input::placeholder {
+    color: oklch(50.5% 0.213 27.518)
+  }
+}
+
+
+.btn {
+  color: oklch(50% 0.134 242.749);
+  border-radius: calc(infinity * 1px);
+  background-color: oklch(97.7% 0.013 236.62);
+  border: 1px solid oklch(68.5% 0.169 237.323);
+  padding: 5px;
+  font-size: 15px;
+  padding-inline: 15px;
+}
+
+.btn:hover {
+  background-color: oklch(90.1% 0.058 230.902);
+}
+
+.btn:active {
+  background-color: oklch(68.5% 0.169 237.323);
+  color: oklch(44.3% 0.11 240.79)
+}
